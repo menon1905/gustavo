@@ -1,0 +1,60 @@
+*{
+ font-family: Arial, Helvetica, sans-serif;   
+ margin: 0;
+ padding: 0;
+}
+
+
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+}
+
+#menu-icon{
+    display: block;
+   float: right;
+  width: auto;
+}
+
+h2{
+    display: block;
+    text-align: center;
+}
+
+ul{
+    display: inline; 
+    width: 100%;
+    margin-left: 0;
+    padding: 0;
+    float: left;
+   
+}
+
+li{
+    display: inline; 
+    list-style: none;
+
+}
+ .menu li{
+        background: #ccc;
+        padding: 0 4%;
+        margin: 0 2.2%;
+        height: 25px;
+        float: left;
+        line-height: 25px;
+        border-radius: 8px;
+      }
+nav {
+    width: 100%;
+    float: left;
+}
